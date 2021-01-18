@@ -24,12 +24,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => '44e5483245c7f47a7ae0246732b1c48f8e9c1b0b',
+    'reference' => '47e83a0cafa6a690e5547a2152f56cee014a9841',
     'name' => 'philipnjuguna/advanta',
   ),
   'versions' => 
@@ -121,12 +121,12 @@ private static $installed = array (
     ),
     'philipnjuguna/advanta' => 
     array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => '44e5483245c7f47a7ae0246732b1c48f8e9c1b0b',
+      'reference' => '47e83a0cafa6a690e5547a2152f56cee014a9841',
     ),
     'phpdocumentor/reflection-common' => 
     array (
@@ -402,6 +402,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'symfony/dotenv' => 
+    array (
+      'pretty_version' => '4.4.x-dev',
+      'version' => '4.4.9999999.9999999-dev',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '55114d89dbf60aa30ebc4cc1e2382b9c3acff04a',
     ),
     'symfony/polyfill-ctype' => 
     array (

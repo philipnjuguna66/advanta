@@ -5,10 +5,31 @@ namespace PhilipNjuguna\Advanta;
 
 
 use Carbon\Carbon;
-use GuzzleHttp\Client;
+use Symfony\Component\Dotenv\Dotenv;
+
+include_once("../vendor/autoload.php");
 
 class AdvantaSMS
 {
+
+    /**
+     * Define env method similar to laravel's
+     *
+     * @param String $env_param | Environment Param Name
+     *
+     * @return String
+     */
+    public static function env(string $env_param): string
+    {
+
+        $dotenv = new Dotenv();
+
+        $dotenv->load('../.env');
+
+        $env = getenv($env_param);
+
+        return $env;
+    }
 
 
     public function sendMessage($to, $message , $time  = null)

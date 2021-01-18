@@ -21,9 +21,11 @@ composer require philipnjuguna/advanta
 
 Configuration
 At your project root, create a .env file and in it set the consumer key and consumer secret as follows
+```.dotenv
 ADVANTA_PARTNER_ID=
 ADVANTA_API_KEY=
 ADVANTA_SHORT_CODE=
+```
 
 For Laravel users, open the Config/App.php file and add \PhilipNjuguna\Advanta\AdvantaFacade::class under providers and 'Advanta'=> \PhilipNjuguna\Advanta\AdvantaServiceProvider::class under aliases.
 
@@ -41,10 +43,7 @@ $advanta       = (new AdvantaSMS())->sendMessage($mobile, $message);
 $result   =  (new AdvantaSMS())->sendMessage('2XXYYYOOO',"message");
 
 // Use the service for laravel
-$result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage([
-    'to'      => '+2XXYYYOOO',
-    'message' => 'Hello World!'
-]);
+$result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage("254700123456","message");
 
 
 

@@ -35,6 +35,7 @@ class ComposerStaticInitc861110f2d99c748ce67ce7e57ef758f
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Dotenv\\' => 25,
         ),
         'P' => 
         array (
@@ -91,6 +92,10 @@ class ComposerStaticInitc861110f2d99c748ce67ce7e57ef758f
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dotenv',
         ),
         'Psr\\Http\\Message\\' => 
         array (
