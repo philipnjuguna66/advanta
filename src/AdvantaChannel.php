@@ -58,6 +58,7 @@ class AdvantaChannel
             return $notifiable->phone_number;
         }
 
+        
         throw new Exception("Could Not send message!! Invalid Receiver");
     }
 }

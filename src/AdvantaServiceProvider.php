@@ -15,8 +15,6 @@ class AdvantaServiceProvider extends ServiceProvider
         $this->app->bind('advanta', function (){
             return new AdvantaSms();
         });
-
-
     }
 
     public function boot()
