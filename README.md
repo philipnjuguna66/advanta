@@ -19,6 +19,14 @@ The recommended way to install the SDK is with [Composer](http://getcomposer.org
 composer require philipnjuguna/advanta
 ```
 
+Configuration
+At your project root, create a .env file and in it set the consumer key and consumer secret as follows
+ADVANTA_PARTNER_ID=
+ADVANTA_API_KEY=
+ADVANTA_SHORT_CODE=
+
+For Laravel users, open the Config/App.php file and add \PhilipNjuguna\Advanta\AdvantaFacade::class under providers and 'Advanta'=> \PhilipNjuguna\Advanta\AdvantaServiceProvider::class under aliases.
+
 ## Usage
 
 The SDK needs to be instantiated using your username and API key, which you can get from the [dashboard](https://www.advantasms.com/bulksms-api).

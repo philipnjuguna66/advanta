@@ -7,7 +7,7 @@ class AdvantaFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'advanta';
+        return 'Advanta';
     }
 
 }

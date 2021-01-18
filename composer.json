@@ -28,7 +28,7 @@
                 "PhilipNjuguna\\Advanta\\AdvantaServiceProvider"
             ],
             "aliases": {
-                "Menu": "PhilipNjuguna\\advanta\\AdvantaFacade"
+                "Advanta": "PhilipNjuguna\\advanta\\AdvantaFacade"
             }
         }
     }
