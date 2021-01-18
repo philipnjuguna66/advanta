@@ -21,7 +21,7 @@ composer require philipnjuguna/advanta
 
 ## Usage
 
-The SDK needs to be instantiated using your username and API key, which you can get from the [dashboard](https://account.africastalking.com).
+The SDK needs to be instantiated using your username and API key, which you can get from the [dashboard](https://www.advantasms.com/bulksms-api).
 
 ```php
 use PhilipNjuguna\Advanta\AdvantaSMS;
