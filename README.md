@@ -27,8 +27,6 @@ ADVANTA_API_KEY=
 ADVANTA_SHORT_CODE=
 ```
 
-For Laravel users, open the Config/App.php file and add \PhilipNjuguna\Advanta\AdvantaFacade::class under providers and 'Advanta'=> \PhilipNjuguna\Advanta\AdvantaServiceProvider::class under aliases.
-
 ## Usage
 
 The SDK needs to be instantiated using your username and API key, which you can get from the [dashboard](https://www.advantasms.com/bulksms-api).
@@ -44,6 +42,12 @@ $result   =  (new AdvantaSMS())->sendMessage('2XXYYYOOO',"message");
 
 // Use the service for laravel
 $result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage("254700123456","message");
+
+
+// For scheduled message add time as the third variable
+$result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage("254700123456","message", \Carbon\Carbon::now()->addRealMinutes(10));
+
+
 
 
 
