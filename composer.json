@@ -21,5 +21,15 @@
             "email": "philkiangai@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PhilipNjuguna\\Advanta\\AdvantaServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "PhilipNjuguna\\advanta\\AdvantaFacade"
+            }
+        }
+    }
 }
