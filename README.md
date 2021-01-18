@@ -38,10 +38,15 @@ $advanta       = (new AdvantaSMS())->sendMessage($mobile, $message);
 
 
 // Use the service
-$result   =  (new AdvantaSMS())->sendMessage([
+$result   =  (new AdvantaSMS())->sendMessage('2XXYYYOOO',"message");
+
+// Use the service for laravel
+$result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage([
     'to'      => '+2XXYYYOOO',
     'message' => 'Hello World!'
 ]);
+
+
 
 print_r($result);
 ```
