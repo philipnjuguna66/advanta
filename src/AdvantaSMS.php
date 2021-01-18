@@ -6,6 +6,7 @@ namespace PhilipNjuguna\Advanta;
 
 use Carbon\Carbon;
 use Symfony\Component\Dotenv\Dotenv;
+use function Couchbase\defaultDecoder;
 
 include_once("../vendor/autoload.php");
 
@@ -49,6 +50,11 @@ class AdvantaSMS
         {
             $data[ "timeToSend"] = Carbon::parse($time)->format('Y-m-d H:i');
         }
+        else{
+            $data[ "timeToSend"] =  Carbon::now()->format('Y-m-d H:i');
+        }
+
+
 
         $response = $this->sendRequest($data, $url);
 
