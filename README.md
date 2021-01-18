@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/philipnjuguna/advanta)](https://packagist.org/packages/philipnjuguna/advanta)
 
-> This SDK provides convenient access to the Africa's Talking API for applications written in PHP.
+> This SDK provides convenient access to the Advanta Africa sms API for applications written in PHP.
 
 ## Documentation
 Take a look at the [API docs here](https://www.advantasms.com/bulksms-api).
