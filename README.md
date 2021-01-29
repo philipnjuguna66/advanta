@@ -22,7 +22,7 @@ composer require philipnjuguna/advanta
 ```
 
 Configuration
-At your project root, create a .env file and in it set the consumer key and consumer secret as follows
+At your project root, create a .env file and in it set the PARTNER ID , API KEY and SHORT CODE as follows
 ```.dotenv
 ADVANTA_PARTNER_ID=
 ADVANTA_API_KEY=
@@ -31,7 +31,7 @@ ADVANTA_SHORT_CODE=
 
 ## Usage
 
-The SDK needs to be instantiated using your username and API key, which you can get from the [dashboard](https://www.advantasms.com/bulksms-api).
+The SDK needs to be instantiated using API key, which you can get from the [dashboard](https://www.advantasms.com/bulksms-api).
 
 ```php
 use PhilipNjuguna\Advanta\AdvantaSMS;
