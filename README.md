@@ -2,7 +2,6 @@
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/philipnjuguna/advanta)](https://packagist.org/packages/philipnjuguna/advanta)
 <a href="https://packagist.org/packages/philipnjuguna/advanta"><img src="https://img.shields.io/github/issues/philipnjuguna66/advanta" alt="Total Downloads"></a>
-[![Total Downloads](https://img.shields.io/packagist/dt/philipnjuguna/advanta.svg?style=flat-square)](https://packagist.org/packages/philipnjuguna/advanta)
 <a href="https://packagist.org/packages/philipnjuguna/advanta"><img src="https://img.shields.io/packagist/dt/philipnjuguna/advanta?color=green" alt="Total Downloads"></a>
 
 > This SDK provides convenient access to the Advanta Africa sms API for applications written in PHP.
