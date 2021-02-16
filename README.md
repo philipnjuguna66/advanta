@@ -56,13 +56,13 @@ $result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage("254700123456","m
 print_r($result);
 ```
 
-##Delivery Report
+## Delivery Report
 
 To read delivery report for a sent message use;
 ```php
 (new AdvantaSMS())->getDelivery("Message id");
 ```
-###Result
+### Result
 ```json
 {
 "response-code": 200,
@@ -75,13 +75,13 @@ To read delivery report for a sent message use;
 "delivery-time": "2021-02-16 10:15:13"
 }
 ```
-##Balance Report
+## Balance Report
 
 To read delivery report for a sent message use;
 ```php
 (new AdvantaSMS())->getBalance();
 ```
-###Result
+### Result
 ```json
 {
   "response-code": 200,
