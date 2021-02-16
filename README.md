@@ -54,6 +54,39 @@ $result   =  \PhilipNjuguna\Advanta\AdvantaFacade::sendMessage("254700123456","m
 print_r($result);
 ```
 
+##Delivery Report
+
+To read delivery report for a sent message use;
+```php
+(new AdvantaSMS())->getDelivery("Message id");
+```
+###Result
+```json
+{
+"response-code": 200,
+"message-id": "89999",
+"response-description": "Success",
+"delivery-status": 32,
+"delivery-description": "DeliveredToTerminal",
+"delivery-tat": "6s",
+"delivery-networkid": 1,
+"delivery-time": "2021-02-16 10:15:13"
+}
+```
+##Balance Report
+
+To read delivery report for a sent message use;
+```php
+(new AdvantaSMS())->getBalance();
+```
+###Result
+```json
+{
+  "response-code": 200,
+  "credit": "800.00",
+  "partner-id": "XXXX"
+}
+```
 
 ## Issues
 
