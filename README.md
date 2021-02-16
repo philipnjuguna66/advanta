@@ -72,7 +72,7 @@ To read delivery report for a sent message use;
 "delivery-description": "DeliveredToTerminal",
 "delivery-tat": "6s",
 "delivery-networkid": 1,
-"delivery-time": "2021-02-16 10:15:13"
+"delivery-time": "2020-02-16 10:15:13"
 }
 ```
 ## Balance Report
