@@ -58,9 +58,9 @@ print_r($result);
 
 ## Delivery Report
 
-To read delivery report for a sent message use;
+To read message delivery report;
 ```php
-(new AdvantaSMS())->getDelivery("Message id");
+(new AdvantaSMS())->getDelivery($messageId);
 ```
 ### Result
 ```json
@@ -77,7 +77,7 @@ To read delivery report for a sent message use;
 ```
 ## Balance Report
 
-To read delivery report for a sent message use;
+To request account balance;
 ```php
 (new AdvantaSMS())->getBalance();
 ```
