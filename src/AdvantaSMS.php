@@ -56,7 +56,7 @@ class AdvantaSMS
 
 
 
-        $response = $this->sendRequest($data, $url);
+        $response = $this->sendRequest($url, $data);
 
         $count = 0;
 
@@ -87,7 +87,7 @@ class AdvantaSMS
 
 
 
-        return $this->sendRequest([], $url);
+        return $this->sendRequest($url, []);
     }
 
     public function getDelivery($messageId)
@@ -98,11 +98,11 @@ class AdvantaSMS
             'messageID' => $messageId,
         ];
 
-        return  $this->sendRequest($curlData, $url);
+        return  $this->sendRequest($url, $curlData);
 
     }
 
-    public function sendRequest(array $curlData = [], string $url)
+    public function sendRequest(string $url, array $curlData = [])
     {
 
 
