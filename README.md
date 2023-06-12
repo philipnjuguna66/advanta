@@ -92,4 +92,4 @@ To request account balance;
 
 ## Issues
 
-If you find a bug, please file an issue on [our issue tracker on GitHub](https://github.com/philipnjuguna66/advnata/issues).
+If you find a bug, please file an issue on [our issue tracker on GitHub](https://github.com/philipnjuguna66/advanta/issues).
