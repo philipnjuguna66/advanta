@@ -3,7 +3,7 @@
     "description": "Advanta sms sdk for laravel",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^2.72.6",
+        "guzzlehttp/guzzle": "6.5.8",
         "nesbot/carbon": "^2.43"
     },
     "require-dev": {
